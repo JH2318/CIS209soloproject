@@ -13,6 +13,5 @@ Located in the heart of Muscle Shoals, Alabama, Raise The Bar Gym has been empow
 - [x] Implement all pictures provided by business
 - [ ] Ensure that aesthetic follows established brand image
 - [ ] Implement "verticalGymBannerTrialSession" as a trial choice
-- [ ] 
 
 ## Technical Requirements
