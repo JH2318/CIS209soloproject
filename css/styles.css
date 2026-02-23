@@ -1,1 +1,15 @@
 /* placeholder */
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+  display: flex; 
+  gap: 10px;    
+}
+
+.item {
+  flex: 1;      
+  padding: 20px;
+  background-color: lightblue;
+}
