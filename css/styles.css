@@ -1,1 +1,29 @@
-/* placeholder */
+body {
+  background-color: rgb(255, 127, 7);
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+.boxed-header {
+  display: flex;              /* Puts items side by side */
+  justify-content: center;    /* Centers them horizontally */
+  align-items: center;        /* Aligns them vertically */
+  gap: 70px;                  /* Space between words */
+  border: 2px solid black;
+  padding: 20px;
+}
+.container {
+  display: flex;       /* Makes items go side by side */
+  border: 2px solid black;
+  width: 400px;
+}
+
+.box {
+  flex: 1;             /* Makes both boxes equal width */
+  border: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+}
