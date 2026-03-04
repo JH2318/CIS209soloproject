@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 127, 7);
+  background-color: rgba(58, 56, 61, 0.856);
 }
 h1 {
   color: blue;
@@ -11,14 +11,15 @@ p {
   display: flex;              /* Puts items side by side */
   justify-content: center;    /* Centers them horizontally */
   align-items: center;        /* Aligns them vertically */
-  gap: 70px;                  /* Space between words */
+  gap: 200px;                  /* Space between words */
   border: 2px solid black;
   padding: 20px;
 }
 .container {
   display: flex;       /* Makes items go side by side */
   border: 2px solid black;
-  width: 400px;
+  width: 1853px;
+  height: 700px;
 }
 
 .box {
@@ -26,4 +27,9 @@ p {
   border: 1px solid gray;
   padding: 20px;
   text-align: center;
+}
+.logo {
+  height: 150px;
+  width: 140px;
+  align-content: center;
 }
