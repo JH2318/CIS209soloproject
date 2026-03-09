@@ -5,14 +5,15 @@ h1 {
   color: blue;
 }
 p {
-  color: red;
+  color: rgb(0, 0, 0);
 }
 .boxed-header {
   display: flex;              /* Puts items side by side */
   justify-content: center;    /* Centers them horizontally */
   align-items: center;        /* Aligns them vertically */
   gap: 200px;                  /* Space between words */
-  border: 2px solid black;
+  border: 2px solid rgb(233, 136, 9);
+  background-color: rgb(255, 106, 0);
   padding: 20px;
 }
 .container {
@@ -22,14 +23,21 @@ p {
   height: 700px;
 }
 
-.box {
+.box1 {
   flex: 1;             /* Makes both boxes equal width */
-  border: 1px solid gray;
+  border: 1px solid rgb(85, 70, 70);
   padding: 20px;
   text-align: center;
+  font-size: 50px;
 }
 .logo {
   height: 150px;
   width: 140px;
   align-content: center;
+}
+.box {
+  flex: 1;             /* Makes both boxes equal width */
+  border: 1px solid rgb(85, 70, 70);
+  padding: 20px;
+  text-align: center;
 }
